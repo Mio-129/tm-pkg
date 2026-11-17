@@ -1,1 +1,2 @@
-pkg install git curl wget nano less tar unzip zip mpv python ani-cli sl cmatrix fastfetch -y 
+echo "Older-Pack V1"
+pkg install git curl wget nano less tar unzip zip mpv python ani-cli sl cmatrix vim fastfetch yazi tur-repo x11-repo -y
