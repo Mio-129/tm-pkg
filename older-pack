@@ -1,2 +1,8 @@
-echo "Older-Pack V1"
-pkg install git curl wget nano less tar unzip zip mpv python ani-cli sl cmatrix vim fastfetch yazi tur-repo x11-repo -y
+    read -p "Older-Pack Kuruluşu Uzundur Kurulsun mu? (E/H): " cevap
+    if [[ "$cevap" == "E" || "$cevap" == "e" ]]; then
+        pkg install git curl wget nano less tar unzip zip mpv python ani-cli sl cmatrix vim fastfetch yazi tur-repo x11-repo -y
+        echo "Paketler Kuruluyor..."
+    else
+        echo "Komut İptal Edildi."
+    fi
+}
